@@ -1,11 +1,40 @@
-.darkRed {
-    color : rgb(212, 0, 0);
+body {
+    margin: 0 auto;
+    max-width: 50em;
+    font-family: 'Caudex', serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    color: #555;
 }
 
-.red {
-    color : red;
+h2 {
+    color: #333;
+    background-color: antiquewhite;
 }
 
-.pink {
-    color : rgb(243, 0, 190)
+code {
+    padding: 2px 4px;
+    vertical-align: text-bottom;
+    background: #eee;
+}
+
+strong {
+    font-size: 18px;
+}
+
+em {
+    text-decoration: underline;
+}
+
+h1 {
+    background-color: antiquewhite;
+}
+
+ul {
+    font-style: italic;
+}
+
+p::first-letter {
+    font-family: 'UnifrakturMaguntia', serif;
+    font-size: 2em;
 }
