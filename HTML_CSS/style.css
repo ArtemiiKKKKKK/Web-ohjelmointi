@@ -1,1 +1,11 @@
-p { background-color: red ; }
+.darkRed {
+    color : rgb(212, 0, 0);
+}
+
+.red {
+    color : red;
+}
+
+.pink {
+    color : rgb(243, 0, 190)
+}
