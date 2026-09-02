@@ -1,0 +1,23 @@
+.containerRed {
+  width: 200px;
+  height: 100px;
+  background-color: red;
+}
+
+.containerYellow {
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+  position: relative ;
+  left: 250px;
+  bottom: 116px;
+}
+
+.containerGreen {
+  width: 200px;
+  height: 100px;
+  background-color: green;
+  position: relative ;
+  left: 500px;
+  bottom: 232px;
+}
