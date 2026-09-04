@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #3a3d40;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: #e5e5e5;
+}
+
+.menu a:hover {
+  background-color: #5b8a72;
+  color: #ffffff;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.main h2 {
+  color: #5b8a72;
+}
+
+.right {
+  background-color: #3a3d40;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.right h2 {
+  color: #5b8a72;
+}
+
+@media only screen and (max-width: 620px) {
+  .menu, .main, .right { width: 100%; }
+  .image-row { flex-direction: column; }
+}
+</style>
+</head>
+
+<body style="font-family:Verdana;color:#e5e5e5;background-color:#25282b;">
+
+<div style="background-image:url('naturePic.jpg');background-size:cover;background-position:center;padding:80px;text-align:center;">
+  <h1 style="color:#e5e5e5;">Finland</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <p>Facts about Finland:</p>
+    <a href="https://en.wikipedia.org/wiki/Finland">Wikipedia</a>
+    <a href="https://infofinland.fi/information-about-finland/key-facts-about-finland">InfoFinland</a>
+    <a href="https://www.visitfinland.com/en/practical-tips/facts-about-finland/">VisitFinland</a>
+    <p>Travel information:</p>
+    <a href="https://finlandabroad.fi/frontpage">FinlandAbroad</a>
+  </div>
+
+  <div class="main">
+    <h2>Republic of Finland</h2>
+    <p>is a Nordic country in Northern Europe. 
+    It borders Sweden to the northwest, 
+    Norway to the north, and Russia to the east, with 
+    the Gulf of Bothnia to the west and the Gulf of Finland to the south, 
+    opposite Estonia. 
+    Its capital and largest city is Helsinki. 
+    Finland has a population of 5.7 million. 
+    The official languages are Finnish and Swedish, 
+    the mother tongues of 
+    83.5 percent and 5.0 percent of the population, 
+    respectively. Finland's climate varies from humid continental 
+    in the south to boreal in the north. 
+    Its land is predominantly covered by boreal forest,
+    with over 180,000 recorded lakes.</p>
+  </div>
+
+  <div class="right">
+    <h2>About</h2>
+    <p>This website contains general information about the country of Finland</p>
+  </div>
+
+</div>
+
+<div style="display:flex;gap:10px;clear:both;">
+  <img src="nature1.webp" alt="Helsinki cityscape" style="width:40%;">
+  <img src="nature2.jpg" alt="Northern lights Finland" style="width:40%;">
+</div>
+
+<div style="background-color:#3a3d40;text-align:center;padding:10px;margin-top:7px;color:#e5e5e5;">Artemii Kemppi © copyright 2026</div>
+
+</body>
+</html>
