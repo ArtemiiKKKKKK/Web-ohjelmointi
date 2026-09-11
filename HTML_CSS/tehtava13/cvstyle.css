@@ -1,0 +1,110 @@
+.menu {
+    background-color: #2b2d2f;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 4px;
+}
+
+.menu a {
+    background-color: #3a3d40;
+    padding: 8px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    flex: 1;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #5b8a72;
+    color: #ffffff;
+}
+
+.header {
+    color: #5b8a72;
+    background-color: #363636;
+    padding: 15px;
+    text-align: center;
+}
+.header a {
+    color: #5b8a72;       /* same green as before */
+    text-decoration: none; /* removes the underline */
+}
+
+.intro {
+    color: #5b8a72;
+    padding: 15px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in;
+    font-size: 27px;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.main h2 {
+    color: #5b8a72;
+}
+
+.right {
+    background-color: #3a3d40;
+    float: left;
+    width: 20%;
+    padding: 15px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+.right h2 {
+    color: #5b8a72;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    background-color: #2b2d2f;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #ffffff;
+    animation: fadeIn 0.6s ease-in;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+ul {
+    font-size: 21px;
+    margin-left: 100px;
+    animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .menu,
+    .main,
+    .right {
+        width: 100%;
+    }
+
+    .image-row {
+        flex-direction: column;
+    }
+}
