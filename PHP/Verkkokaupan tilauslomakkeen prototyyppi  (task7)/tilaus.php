@@ -2,20 +2,20 @@
 // PHP-tehtävä 7: Tilauslomakkeen prototyyppi
 
 // Kopioidaan funktio tehtävästä 6
-    function calculateDeliveryCosts($shippingmethod)
-    {
-        switch ($shippingmethod) {
-            case "Nouto":
-                return 0.00;
-            case "Postipaketti":
-                return 6.90;
-            case "Kotiinkuljetus":
-                return 12.50;
+function calculateDeliveryCosts($shippingmethod)
+{
+    switch ($shippingmethod) {
+        case "Nouto":
+            return 0.00;
+        case "Postipaketti":
+            return 6.90;
+        case "Kotiinkuljetus":
+            return 12.50;
 
-            default:
-                return -1;
-        }
+        default:
+            return -1;
     }
+}
 
 // Alustetaan muuttujat, jotta ne ovat olemassa, vaikka lomaketta ei olisi lähetetty
 $yhteenveto = null;
@@ -24,13 +24,13 @@ $yhteenveto = null;
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Haetaan tiedot lomakkeelta
 
-   
+
     // Tuotetiedot
-    
-   
+
+
     // Laskutoimitukset
 
-   
+
     // Rakennetaan yhteenveto-muuttuja tulostusta varten
 
 
@@ -38,6 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <title>Tilauslomake</title>
@@ -46,21 +47,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     </style>
 </head>
+
 <body>
     <div class="container">
-        <h1></h1>
-       
-        <h3></h3>
-
-        <form>
-
+        <form method="post" action="tilaus.php">
+            <h3>Tuote: Sähköpotkulauta (349,90 €/kpl)</h3>
+            <label></label>
         </form>
 
         <?php
         // Tulostetaan yhteenveto, jos se on laskettu
-    
 
         ?>
     </div>
 </body>
+
 </html>
