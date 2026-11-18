@@ -4,24 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Tuotteet - Meidän Firma</title>
-    <style>
-        /* Aktiivisen linkin korostus */
-        nav ul li.active a {
-            background-color: #007bff;
-            color: white;
-        }
-
-        /* Lisää loput muotoilut itse tänne */
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <?php // php includen voi lisätä tänne // ?>
+        <?php include 'navigaatio.php'; ?>
 
     </header>
     <main>
-        <p>Tuotteet</p>
+        <h1>Osta tuote: </h1>
+        <ul>
+            <li>Sähköpotkulauta (349,99€)</li>
+            <li>Tesla Cybertruck (34900,99€)</li>
+            <li>Hesen Kerrosateria (10,90€)</li>
+            <li>Vanha ja huono telkkari (Ilmainen)</li>
+            <li>Claude Code (34,99€/kk)</li>
+        </ul>
     </main>
 </body>
 

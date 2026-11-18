@@ -4,24 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Yhteystiedot - Meidän Firma</title>
-    <style>
-        /* Aktiivisen linkin korostus */
-        nav ul li.active a {
-            background-color: #007bff;
-            color: white;
-        }
-
-        /* Lisää loput muotoilut itse tänne */
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-        <?php // php includen voi lisätä tänne // ?>
+        <?php include 'navigaatio.php'; ?>
 
     </header>
     <main>
-        <p>yhteystideot</p>
+        <h1>Yhteystiedot: </h1>
+        <ul>
+            <li>Verohallinto: 029 497 000</li>
+            <li>Terveyden vastaanotto: 121211231232</li>
+            <li>Kurikka: +358 46 33323453</li>
+        </ul>
     </main>
 </body>
 

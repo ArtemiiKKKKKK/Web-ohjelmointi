@@ -1,7 +1,7 @@
 <?php
 $pages = [
     'Etusivu' => 'etusivu.php',
-    'Tilaa tuote' => 'tuotteet.php',
+    'Tuotteet' => 'tuotteet.php',
     'Yhteystiedot' => 'yhteystiedot.php'
 ];
 // Haetaan nykyisen sivun tiedostonimi
