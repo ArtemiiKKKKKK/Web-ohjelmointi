@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Syncopate:wght@400;700&display=swap');
+
+p,
+ul,
+li,
+nav a {
+    font-family: "Play", sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Syncopate", sans-serif;
+    font-weight: 700;
+}
+
+main {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+}
+
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+nav {
+    display: block;
+    background-color: black;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+nav li {
+    transition: background-color 0.3s;
+}
+
+nav a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Hover effect */
+nav li:hover {
+    background-color: #555;
+}
+
+/* Active page */
+nav li.active {
+    background-color: #007bff;
+}
+
+/* Page spacing */
+body {
+    margin: 0;
+}
+
+.cart {
+    position: fixed;
+    top: 30px;
+    right: 16px;
+    z-index: 1000;
+}
+
+.cart img {
+    width: 200px;
+    height: auto;
+}
